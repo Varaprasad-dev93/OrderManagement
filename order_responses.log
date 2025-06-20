@@ -1,0 +1,8 @@
+2025-06-20 19:25:50.194407 - Order 1 Success - Order added to queue | Latency: 2e-05 sec
+2025-06-20 19:25:50.196802 - Order 1 Success - Order modified | Latency: 0.003013 sec
+2025-06-20 20:08:15.719942 - Order 1 Success - Order added to queue | Latency: 1.7e-05 sec
+2025-06-20 20:08:15.723398 - Order 1 Success - Order modified | Latency: 0.003886 sec
+2025-06-20 20:09:57.052556 - Order 1 Success - added to queue | Latency: 2.2e-05 sec
+2025-06-20 20:09:57.053529 - Order 1 Success - modified | Latency: 0.000988 sec
+2025-06-20 20:11:24.838493 - Order 1 Success - added to queue | Latency: 8e-06 sec
+2025-06-20 20:11:24.839433 - Order 1 Success - modified | Latency: 0.000892 sec
