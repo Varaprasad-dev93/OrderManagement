@@ -126,16 +126,21 @@ class OrderManagement:
             return Response(order_request.order_id, "Success", "added to queue")
         
     def on_data_response(self, response):
+        if response.status == "Error":
+            print(f"Response for {response.order_id}: {response.message}")
+            return
         if response.order_id in self.sent_orders:
             sent_time = self.sent_orders[response.order_id]
             latency = (datetime.now() - sent_time).total_seconds()
             print(f"Order {response.order_id} {response.message} | Latency: {latency} sec")
             with open("order_responses.log", "a") as log_file:
                 log_file.write(f"{datetime.now()} - Order {response.order_id} {response.status} - {response.message} | Latency: {latency} sec\n")
-        elif response.status == "Error":
-            print(f"Response for {response.order_id}: {response.message}")
         else:
             print(f"Order {response.order_id} response received: {response.message}")
+            with open("order_responses.log", "a") as log_file:
+                log_file.write(f"{datetime.now()} - Order {response.order_id} {response.status} - {response.message}\n")
+
+            
     def send_(self, order_request):
         # Simulate sending the order to the exchange
         print(f"Sending order: {order_request.order_id} - {order_request.symbol} - {order_request.quantity} @ {order_request.price} ({order_request.order_type})")

@@ -8,7 +8,7 @@ def main():
     # Create a logout session for the user
     logout_session = Logout_Session(session)
     
-    oms= OrderManagement(start_time=time(10, 0), end_time=time(13, 0),rate_limit=100,login_session=session, logout_session=logout_session)
+    oms= OrderManagement(start_time=time(10, 0), end_time=time(22, 0),rate_limit=100,login_session=session, logout_session=logout_session)
     
     #checking the prsent time is in the range of order management system or not.
     print("Checking if the order management system is available...")

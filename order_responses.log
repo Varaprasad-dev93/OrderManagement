@@ -6,3 +6,16 @@
 2025-06-20 20:09:57.053529 - Order 1 Success - modified | Latency: 0.000988 sec
 2025-06-20 20:11:24.838493 - Order 1 Success - added to queue | Latency: 8e-06 sec
 2025-06-20 20:11:24.839433 - Order 1 Success - modified | Latency: 0.000892 sec
+2025-06-20 21:04:29.619587 - Order 1 Success - added to queue | Latency: 1.6e-05 sec
+2025-06-20 21:04:29.621949 - Order 1 Success - modified | Latency: 0.002685 sec
+2025-06-20 21:07:42.018126 - Order 1 Success - added to queue | Latency: 2.1e-05 sec
+2025-06-20 21:07:42.020571 - Order 1 Success - modified | Latency: 0.002975 sec
+2025-06-20 21:08:03.255157 - Order 1 Success - added to queue | Latency: 1.2e-05 sec
+2025-06-20 21:08:03.282880 - Order 1 Success - modified | Latency: 0.015573 sec
+2025-06-20 21:08:53.539114 - Order 1 Success - added to queue | Latency: 4e-05 sec
+2025-06-20 21:08:53.540636 - Order 1 Success - modified | Latency: 0.001454 sec
+2025-06-20 21:27:08.861457 - Order 1 Success - added to queue | Latency: 1.2e-05 sec
+2025-06-20 21:27:08.866150 - Order 1 Success - modified | Latency: 0.003398 sec
+2025-06-20 21:30:07.793818 - Order 1 Success - added to queue | Latency: 9e-06 sec
+2025-06-20 21:30:07.796725 - Order 1 Success - modified | Latency: 0.002691 sec
+2025-06-20 21:30:07.797624 - Order 1 Success -  Order cancelled
