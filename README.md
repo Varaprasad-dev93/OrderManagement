@@ -13,7 +13,8 @@ This is a simple backend system that simulates order handling with:
 - Make sure Python 3 is installed
 - Run `python main.py`
 - Orders and responses will print to console
-- Responses get saved in `order_responses.log`
+- If there is a fault in data then the response will be arised
+- Responses which are successful, modified,cancelled will be saved in `order_responses.log`
 
 ## Assumptions
 
